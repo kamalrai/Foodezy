@@ -10,9 +10,18 @@ const HomeContainer = () => {
       id="home"
     >
       <div className="py-2 flex-1 flex flex-col items-start justify-center gap-6">
+        
+
+        <p className="text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor">
+        It’s not just a Food,
+          <span className="text-orange-600 text-[3rem] lg:text-[5rem]">
+          It’s an experience
+          </span>
+        </p>
+
         <div className="flex items-center gap-2 justify-center bg-orange-100 px-4 py-1 rounded-full">
           <p className="text-base text-orange-500 font-semibold">
-            Bike Delivery
+            Fast Delivery
           </p>
           <div className="w-8 h-8 bg-white rounded-full overflow-hidden drop-shadow-xl">
             <img
@@ -23,19 +32,9 @@ const HomeContainer = () => {
           </div>
         </div>
 
-        <p className="text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-headingColor">
-          The Fastest Delivery in
-          <span className="text-orange-600 text-[3rem] lg:text-[5rem]">
-            Your City
-          </span>
-        </p>
-
         <p className="text-base text-textColor text-center md:text-left md:w-[80%]">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima velit
-          eaque fugit distinctio est nam voluptatum architecto, porro iusto
-          deserunt recusandae ipsa minus eos sunt, dolores illo repellat facere
-          suscipit!
-        </p>
+        In our menu you can find lots of tasty, fresh and intresting dishes, including pizzas of all kinds. We also offer a wide range of seafood dishes, even if you're lust looking for an affordable snack.
+         </p>
 
         <button
           type="button"
